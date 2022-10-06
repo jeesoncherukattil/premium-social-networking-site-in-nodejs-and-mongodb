@@ -1165,7 +1165,8 @@ http.listen(3000, function () {
 								
 								result.json({
 									"status": "success",
-									"message": "Signed up successfully. An email has been sent to verify your account. Once verified, you will be able to login and start using social network."
+									"message1": "Signed up successfully. An email has been sent to verify your account. Once verified, you will be able to login and start using social network.",
+									"message": "Signed up successfully. you will be able to login and start using social network."
 								});
 
 							});

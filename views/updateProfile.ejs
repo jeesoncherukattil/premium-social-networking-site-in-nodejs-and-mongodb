@@ -57,7 +57,8 @@
 		document.querySelector(".profile-image").setAttribute("src", mainURL + "/" + window.user.profileImage);
 
 		document.querySelector(".user-name").innerHTML = window.user.name;
-		document.querySelector(".name").value = window.user.name;
+		document.querySelector(".firstname").value = window.user.firstname;
+		document.querySelector(".lastname").value = window.user.lastname;
 		document.querySelector(".email").value = window.user.email;
 		document.querySelector(".dob").value = window.user.dob;
 		document.querySelector(".city").value = window.user.city;
@@ -161,8 +162,16 @@
 
 									<form onsubmit="return doUpdateProfile(this);">
 										<div class="form-group">
-											<input type="text" required class="name" name="name" />
-											<label class="control-label">Full Name</label>
+											<input type="text" required class="firstname" name="firstname" />
+											<label class="control-label">First Name</label>
+											<i class="mtrl-select"></i>
+										</div>
+
+										<br><br>
+
+										<div class="form-group">
+											<input type="text" required class="lastname" name="lastname" />
+											<label class="control-label">Last Name</label>
 											<i class="mtrl-select"></i>
 										</div>
 
