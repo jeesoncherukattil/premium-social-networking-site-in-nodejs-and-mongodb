@@ -1202,7 +1202,7 @@ http.listen(3000, function () {
 				} else {
 					result.json({
 						"status": "error",
-						"message": "Email or username already exist."
+						"message": "Email or Username already exist."
 					});
 				}
 			});
