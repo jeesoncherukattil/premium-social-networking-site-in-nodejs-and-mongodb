@@ -1,6 +1,24 @@
 <%- include ("includes/header") %>
+<script>
+if(localStorage.getItem("accessToken"))
+{
+	document.getElementById("intro").style.display = "none";
+	document.getElementById("content").style.display = "block";
+}
+else{
+	document.getElementById("intro").style.display = "block";
+	document.getElementById("content").style.display = "none";
+	
+}
 
-<section>
+</script>
+<section id="intro" style="display: block;">
+	<div class="container-fluid">
+		<p>Fashion Connect is a website to connect people in the fashion industry</p>
+	</div>
+</section>
+
+<section id="content" style="display: block;">
 	<div class="gap gray-bg">
 		<div class="container-fluid">
 
