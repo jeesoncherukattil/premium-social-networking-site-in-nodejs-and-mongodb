@@ -30,5 +30,8 @@
     "request": "^2.88.2",
     "socket.io": "^2.3.0",
     "videojs-wavesurfer": "^3.8.0"
+  },
+  "devDependencies": {
+    "jest": "^29.2.0"
   }
 }
